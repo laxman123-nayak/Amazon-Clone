@@ -1,0 +1,3412 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #fdf8f0;
+}
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#outerlogo{
+    height: 50px;
+    width: 120px;
+    align-content: center;
+}
+#amazonlogo{
+    background-image: url("amazonlogo_PNG.png");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 110px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border-color: rgb(123, 123, 123);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+#box2{
+    height: 50px;
+    width: 190px ;
+    align-content: center;
+}
+#icon{
+    display: inline-block;
+}
+#Updatelocation{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    
+}
+#box2text1{
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 25px;
+}
+#box2text1{
+    font-size: 12px;
+    color: #CCCCCC;
+}
+#box2{
+    border: 2px solid transparent;
+}
+#box2:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+/* box3 */
+.Searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    background-color:#0f1111;
+    width: 450px;
+    height: 40px;
+    border-radius: 3px;
+}
+.Searchbar{
+    border: 2px solid transparent;
+}
+.Searchbar:hover{
+    border: 2px solid rgb(211, 138, 1);
+    border-radius: 5px;
+}
+.all{
+    background-color: #e3e3e3;
+    width: 51px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.inputbutton{
+    width: 360px;
+    height: 38px;
+    border: none;
+    font-size: 14px;
+   
+}
+#searchicon{
+    background-color:rgb(228, 175, 1) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 45px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 22px;
+}
+/* flag */
+#outerflag{
+    margin-left: 14px;
+    display: flex;
+    padding-top: 20px;
+    height: 25px;
+    width: 60px;
+}
+#language{
+    height: 12px;
+    width: 19px;
+}
+#english{
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+#down{
+    font-size: 12px;
+    padding-top: 3px;
+    padding-left: 2px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid rgb(123, 123, 123);
+}
+/* box5 */
+#box5{
+    height: 55px;
+    width: 141px;
+    margin-left: 15px;
+    align-content: center;
+}
+#box5T1{
+    font-size: 12px;
+}
+#box5T2{
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+}
+#box5{
+    border: 2px solid  transparent;
+}
+#box5:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+/* box6 */
+#box6{
+   height: 50px;
+   width: 77px;
+   align-content: center;
+
+}
+#box6T1{
+    font-size: 12px;
+}
+#box6T2{
+    font-size: 14px;
+    font-weight: 600;
+}
+#box6{
+    border:2px solid transparent;
+}
+#box6:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#box7{
+    height:50px;
+    width: 77px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#cart{
+    font-size: 25px;
+}
+#box7{
+    border: 2px solid transparent;
+}
+#box7:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#navbar2{                                                      /* navbar2 */
+    height:39px;
+    background-color: #0a2234;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#N2B1{
+    height: 34px;
+    width: 58px;
+    color: #ffffff;
+    align-content: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#N2B1{
+    border: 2px solid transparent;
+}
+#N2B1:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#iconmenu{
+    font-size: 18px;
+}
+#All{
+    padding-top: 2px;
+    font-weight: 700;
+    padding-left: 3px;
+}
+#N2B2{
+    height: 34px;
+    width: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 2px solid transparent;
+}
+#fresh{
+    color: #ffffff;
+    font-size: 14px;
+    
+}
+#N2B2:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#N2B3{
+    height: 34px;
+    width: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#mxplayer{
+    color: #ffffff;
+    font-size: 14px;
+}
+#N2B3{
+    border: 2px solid transparent;
+}
+#N2B3:hover{
+    border:2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#N2B4{
+    height: 34px;
+    width: 43px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#sell{
+    font-size: 14px;
+    color: #ffffff;
+}
+#N2B4{
+    border: 2px solid transparent;
+}
+#N2B4:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#N2B5{
+    height: 34px;
+    width: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+#bestsellers{
+    font-size: 14px;
+    color: #ffffff;
+}
+#N2B5{
+    border: 2px solid transparent;
+}
+#N2B5:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#N2B6{
+    height: 34px;
+    width: 68px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#mobile{
+    font-size: 14px;
+    color: #ffffff;
+}
+#N2B6{
+    border: 2px solid transparent;
+}
+#N2B6:hover{
+  border-radius: 5px;
+  border: 2px solid rgb(123, 123, 123);
+}
+#N2B7{
+    height: 34px;
+    width: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#todaysDeals{
+ font-size: 14px;
+ color: #ffffff;
+}
+#N2B7{
+    border: 2px solid transparent;
+}
+#N2B7:hover{
+    border-radius: 5px;
+    border: 2px solid rgb(123, 123, 123);
+}
+#N2B8{
+    height: 34px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#prime{
+    color: #ffffff;
+    font-size: 14px;
+}
+#icondown{
+ font-size: 12px;
+ color: #495761;
+}
+#N2B8{
+    border: 2px solid transparent;
+}
+#N2B8:hover{
+    border:2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#N2B9{
+    height: 34px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#customerservice{
+    font-size: 14px;
+    color: #ffffff;
+}
+#N2B9{
+    border:2px solid transparent;
+}
+#N2B9:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#N2B10{
+    height: 34px;
+    width: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#electronics{
+    font-size: 14px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+} 
+#N2B10{
+    border: 2px solid transparent;
+}
+#N2B10:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#N2B11{
+    height: 34px;
+    width: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#fashion{
+    font-size: 14px;
+    color: #ffffff;
+}
+#N2B11{
+    Border: 2px solid transparent;
+}
+#N2B11:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#N2B12{
+    height: 34px;
+    width: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#newreleases{
+    font-size: 14px;
+    color: #ffffff;
+}
+#N2B12{
+    border: 2px solid transparent;
+}
+#N2B12:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#N2B13{
+    height: 34px;
+    width: 88px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#amazonpay{
+    font-size: 14px;
+    color: #ffffff;
+}
+#N2B13{
+    border: 2px solid transparent;
+}
+#N2B13:hover{
+    border: 2px solid rgb(123, 123, 123);
+    border-radius: 5px;
+}
+#herosection{
+  background-image: url("Amazon\ hero\ image.jpg");
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;                  
+  height: 400px;
+}
+#outerhero{
+    height: 300px;
+    
+    background-color: pink;
+    background-image: url("Amazon\ hero\ image.jpg");
+    background-size: cover;
+    align-content: center;
+}
+#leftslider{
+    height: 50px;
+    width: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    border:2px solid rgb(207, 207, 207);
+    display: inline-block;
+    align-content: center;
+    position: absolute;
+    top:220px;
+    left:40px;
+}
+#rightslider{
+    height: 50px;
+    width: 20px;
+    background-color:#ededed ;
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    display: inline-block;
+    align-content: center;
+    position: absolute;
+    top:220px;
+    right: 40px;
+}
+#bodycontainer{                                              /*bodycontainer*/
+    height: 3835px;
+    width: 100%;
+    background-color: rgb(240, 239, 237);
+    display: flex;
+}
+#body1B1{                                                          /* Body1box1 */
+    height: 420px;
+    width: 295px;
+    background-color: white;
+    position: relative;
+    top:10px;
+    left: 15px;
+     box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+     border-radius: 4px;
+     display: inline-block;
+}
+#box1heading{
+ font-size: 20px;
+ font-weight: 700;
+ color: #0f1111;
+ padding-top: 12px;
+ padding-left: 10px;
+}
+#bodyimage1{
+    width: 130px ;
+    height: 102px;
+    background-image: url("Home\ furnishings\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#bodyimage2{
+    width: 130px ;
+    height: 102px;
+    background-image: url("Home-decor.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left:10px;
+    margin-top: 15px;
+}
+#box1text{
+    text-decoration: none;
+}
+#textCushioncovers{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    padding-top: 3px;
+    line-height: 15px;
+    display: inline-block;
+}
+#box2text{
+    text-decoration: none;
+}
+#Figurines{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 44px;
+}
+#bodyimage3{
+  width: 130px ;
+    height: 102px;
+ background-image: url("Home_storage.jpg");
+ background-position: center;
+ background-size: cover;
+ margin-left: 10px;
+ border-radius: 3px;
+ margin-top: 10px;
+ display: inline-block;
+}
+#bodyimage4{
+    width: 130px ;
+    height: 102px;
+    display: inline-block;
+    background-image: url("Home_lighting.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+#box3text{
+    text-decoration: none;
+}
+#Homestorage{
+    color: #0f1111;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 3px;
+    display: inline-block;
+}
+#box4text{
+    text-decoration: none;
+}
+#Lightingsolutions{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 65px;
+}
+#exploreall{
+    font-size: 14px;
+    color: #1f67ae;
+    padding-left: 10px;
+    padding-top: 40px;
+    display: inline-block;
+
+}
+#body1B2{                                                           /*body1box2*/
+   height: 420px;
+    width: 295px;
+    background-color: #ffffff;
+    position: relative;
+    top: 10px;
+    left:29px;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+     border-radius: 4px;
+     display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+#box2heading{
+    font-size: 20px;
+    color: #0f1111;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+#box2image1{
+   width: 130px ;
+    height: 102px;
+    background-image:url("Appliances.jpg") ;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#box2image2{
+    width: 130px ;
+    height: 102px;
+    background-image:url("Refrigeators.jpg");
+    background-size: cover;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#Appliances{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    padding-top: 3px;
+    display: inline-block;
+}
+#Refrigerators{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 84px;
+}
+#box2image3{
+   width: 130px ;
+    height: 102px;
+    background-image:url("Microwaves.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 24px;
+}
+#box2image4{
+width: 130px ;
+height: 102px;
+background-image: url("Washing\ machines.jpg");
+background-size: cover;
+border-radius: 3px;
+display: inline-block;
+margin-top: 24px;
+margin-left: 10px;
+}
+#Microwaves{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 12px;
+    display: inline-block;
+}
+#Washingmachines{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 75px;
+}
+#lasttextbox2{
+    font-size: 14px;
+    color: #2162A1;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+#body1B3{                                                    /*body1box3*/
+   height: 420px;
+   width: 295px;
+   background-color: #ffffff;
+   position: relative;
+   top: 10px;
+   left:43px;
+   box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+   border-radius: 4px;
+   display: inline-block;
+}
+#box3heading{                        
+    font-size: 20px;
+    color: #0f1111;
+    font-weight: 700;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+#box3image1{
+    height: 102px;
+    width: 130px;
+    background-image: url("boAt..jpg");
+    background-size: contain;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#box3image2{
+    height: 102px;
+    width: 130px;
+    background-image: url("Boult..jpg");
+    background-size: contain;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#StartingboAt{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#Startingboult{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 34px;
+    padding-top: 3px;
+}
+#box3image3{
+     height: 102px;
+    width: 130px;
+    background-image: url("Noise..jpg");
+    background-size: contain;
+    margin-top: 24px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 3px;
+}
+#box3image4{
+    height: 102px;
+    width: 130px;
+    background-image: url("Zebronic.jpg");
+    background-size: contain;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+#StartingNoise{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 3px;
+    line-height: 15px;
+}
+#StartingZebronics{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 63px;
+    line-height: 15px;
+}
+#lasttextbox3{
+   padding-left: 10px;
+   padding-top: 25px;
+   color: #2162A1;
+   font-size: 14px;
+}
+#body1B4{                                          /*body1box4*/
+   height: 152px;
+   width: 295px;
+   background-color: #ffffff;
+   position: absolute;
+   top:410px;
+   right:18px;
+   box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+   border-radius: 4px;
+   display: inline-block;
+}
+#Signexperience{
+    font-size: 20px;
+    color: #0f1111;
+    font-weight: 700;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+#Signinsecurely{
+    font-size: 14px;
+    color: #0f1111;
+    height: 35px;
+    width: 250px;
+    font-weight:500;
+    background-color: rgb(255, 203, 33);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 21px;
+}
+#body1B5{                                                /* body1box5*/
+   height: 252px;
+   width: 295px;
+   background-color: #ffffff;
+   position: absolute;
+   top:577px;
+   right:18px;
+   box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+   border-radius: 4px;
+}
+#box5image1{
+    height: 115px;
+    width: 130px;
+    background-image: url("Boult-Audio-Anchor-headphones.jpg");
+    background-position-x: -15px;
+    background-size: cover;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+#box5image2{
+    height: 115px;
+    width: 130px;
+    background-image: url("bluetooth-yes-mustang-.webp");
+    background-size: cover;
+    background-position-x: -4px;
+    border-radius: 3px;
+    margin-top: 12px;
+    margin-left: 15px;
+    display: inline-block;
+}
+#box5text1{
+    font-size: 11px;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #0f1111;
+}
+#box5text2{
+ font-size: 11px;
+ color: #878787;
+ padding-left: 10px;
+ padding-top: 3px;
+}
+#box5text3{
+    padding-left: 10px;
+    padding-top: 3px;
+    display: inline;
+    padding-top: 3px;
+}
+#box5text4{
+    font-size: 10px;
+    display: inline;
+    padding-bottom: 10px;
+    text-decoration: line-through solid black;
+    padding-top: 3px;
+}
+#tickicon{
+    display: inline;
+    padding-top: 3px;
+}
+#prime2{
+    display: inline;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0080ff;
+    padding-top: 3px;
+}
+#Shopnow{
+    height: 32px;
+    width: 90px;
+    font-size: 12px;
+    background-color: rgb(255, 197, 8);
+    color: #0f1111;
+    border-radius: 16px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 6px;
+    border:1px solid  rgb(255, 143, 0);
+}
+#body1B6{                                                  /*Body1box6*/
+height: 420px;
+width: 295px;
+background-color: #ffffff;
+box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+position: absolute;
+left: 15px;
+top: 843px;
+border-radius: 4px;
+}
+#box6heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f1111;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+#box6image1{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("Cleaning_wipes.jpg");
+    background-size: cover;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: inline-block;
+}
+#box6image2{
+    height: 102px;
+    width: 130px;
+    background-image: url("Shower_head.jpg");
+    background-size: cover;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#Under199supplies{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    padding-top: 3px;
+    display: inline-block;
+}
+#Bathroomaccessories{
+    display: inline-block;
+    font-size: 12px;
+    color: #0f1111;
+    padding-top: 3px;
+    padding-left: 16px;
+}
+#box6image3{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("Tools__hi-res.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+#box6image4{
+    height: 102px;
+    width: 130px;
+    background-image: url("wallpaper299.jpg");
+    background-size: cover;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#Hometools{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+#UnderWallpapers{
+    font-size: 12px;
+    color: #0f1111;
+    padding-top: 3px;
+    display: inline-block;
+    padding-left: 32px;
+}
+#lasttextbox6{
+    font-size: 14px;
+    color: #2162A1;
+    padding-top: 22px;
+    padding-left: 10px;
+}
+#body1B7{                              /*body1box7*/
+height: 420px;
+width: 295px;
+background-color: #ffffff;
+box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+position: absolute;
+top: 843px;
+left: 324px;
+border-radius: 4px;
+}
+#box7heading{
+    font-size: 20px;
+    color: #0f1111;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-weight: 700;
+}
+#box7image1{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("Glasscare.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#box7image2{
+    height: 102px;
+    width: 130px;
+    background-image: url("Rim_tyrecare.jpg");
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+#Cleaningaccessories{
+    font-size: 12px;
+    color: #0f1111;
+    padding-top: 3px;
+    padding-left: 10px;
+    display: inline-block;
+}
+#Tyrerimcare{
+    font-size: 12px;
+    color: #0f1111;
+    padding-top: 3px;
+    display: inline-block;
+    padding-left: 26px;
+}
+#box7image3{
+    height: 102px;
+    width: 130px;
+    display: inline-block;
+    background-image: url("Vega_helmet.jpg");
+    background-size: cover;
+    background-position-x: -15px;
+    margin-top: 29px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+#box7image4{
+    height: 102px;
+    width: 130px;
+    background-image: url("Vaccum.jpg");
+    background-size: cover;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+#Helmets{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#Vacuumcleaner{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-top: 3px;
+    padding-left: 97px;
+}
+#lasttextbox7{
+    font-size: 14px;
+    color: #2162A1;
+    padding-left: 10px;
+    padding-top: 35px;
+}
+#body1B8{                                                     /*body1B8*/
+height: 420px;
+width: 295px;
+background-color: #ffffff;
+box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+position: absolute;
+top: 843px;
+right: 328px;
+border-radius: 4px;
+}
+#box8heading{
+    font-size: 20px;
+    color: #0f1111;
+    padding-left: 10px;
+    font-weight: 700;
+    padding-top: 12px;
+}
+#box8image1{
+    height: 102px;
+    width: 130px;
+    background-image: url("kingsize\ Bed.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    border-radius: 3px;
+    margin-top: 15px;
+    display: inline-block;
+}
+#box8image2{
+    height: 102px;
+    width: 130px;
+    background-image: url("curtains.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#StartingBedsheets{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#StartingCurtains{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-top: 3px;
+    padding-left: 62px;
+}
+#box8image3{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("HOME_SIZE\ Table.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 16px;
+    display: inline-block;
+}
+#box8image4{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("HOME_SIZE\ Toy.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 16px;
+    display: inline-block;
+}
+#Ironingboardmore{
+    font-size: 12px;
+    color: #0f1111;
+    padding-top: 3px;
+    padding-left: 10px;
+    display: inline-block;
+}
+#Homedecor{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-top: 3px;
+    padding-left: 27px;
+}
+#lasttextbox8{
+    font-size: 14px;
+    color: #2162A1;
+    padding-left: 10px;
+    padding-top: 22px;
+    display: inline-block;
+}
+#body1B9{                                              /*body1B9 */
+    height: 420px;
+    width: 295px;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 843px;
+    right: 18px;
+    border-radius: 4px;
+}
+#box9heading{
+    font-size: 20px;
+    color: #0f1111;
+    padding-top: 12px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+#box9image1{
+    height: 102px;
+    width: 130px;
+    background-image: url("Budget\ TV.jpg");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+#box9image2{
+    height: 102px;
+    width: 130px;
+    background-image: url("4K\ TV\'s.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#BudgetTVsCostEMI{
+    font-size: 12px;
+    color: #0f1111;
+    padding-top: 3px;
+    padding-left: 10px;
+    display: inline-block;
+}
+#costEMITVs{
+    font-size: 12px;
+    color: #0f1111;
+    padding-top: 3px;
+    padding-left: 18px;
+    display: inline-block;
+}
+#box9image3{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("Big\ Screen\ TV\'s.jpg");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+#box9image4{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("55\ Ultra\ Premium\ TV\'s.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 16px;
+    display: inline-block;
+}
+#BigScreensinstallation{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#UltraPremium{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-top: 3px;
+    padding-left: 40px;
+}
+#lasttextbox9{
+    font-size: 14px;
+    color: #2162A1;
+    padding-left: 10px;
+    padding-top: 22px;
+}
+ #Bikesection{                                                  /* Bikesection */
+    height: 260px;
+    width: 1222.5px;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: absolute;
+    top:1280px;
+    left:16px;
+    justify-content: space-between;
+}
+#Bikesectionheading{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #0f1111;
+    display: inline-block
+}
+.Seealloffers{
+    font-size: 14px;
+    color: #2162A1;
+    display: inline-block;
+    padding-left: 10px;
+}
+#Bikesectionimage1{
+    height: 200px;
+    width: 240px;
+    background-image: url("scooty2.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 27px;
+    margin-left: 10px;
+    display: inline-block;
+}
+#Bikesectionimage2{
+    height: 200px;
+    width: 240px;
+    background-image: url("glamer\ bike.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 8px;
+}
+#Bikesectionimage3{
+    height: 200px;
+    width: 240px;
+    background-image: url("sctooy\ 3.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#Bikesectionimage4{
+    height: 200px;
+    width: 240px;
+    background-image: url("Ns200bike.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#Bikesectionimage5{
+    height: 200px;
+    width: 206px;
+    background-image: url("hero\ bike.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 25px;
+    background-position-y: -7px;
+    display: inline-block;
+}
+#bikerliftslider{
+    height: 50px;
+    width: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    border:2px solid rgb(207, 207, 207);
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    left: 20px;
+}
+#bikerrighttslider{
+    height: 50px;
+    width: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    border:2px solid rgb(207, 207, 207);
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    right: 20px;
+}
+#HandCraftsection{                                   /*HandCraftsection*/
+    height: 260px;
+    width: 1222.5px;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: absolute;
+    top:1556px;
+    left: 16px;
+}
+#HandCraftheading{
+    font-size: 20px;
+    color: #0f1111;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#HandCraftsectionimage1{
+    height: 200px;
+    width: 206px;
+    background-image: url("blue\ glass.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+#HandCraftsectionimage2{
+    height: 200px;
+    width: 206px;
+    background-image: url("tortoies\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 8px;
+}
+#HandCraftsectionimage3{
+    height: 200px;
+    width: 206px;
+    background-image:url("rakhi\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 18px;
+}
+#HandCraftsectionimage4{
+    height: 200px;
+    width: 206px;
+    background-image: url("decoration\ table\ with\ tree.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 18px;
+}
+#HandCraftsectionimage5{
+    height: 200px;
+    width: 206px;
+    background-image: url("coffee\ cups.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 18px;
+}
+#HandCraftsectionimage6{
+    height: 200px;
+    width: 120px;
+    background-image: url("pink\ coffee\ and\ bread.jpg");
+    background-size: cover;
+    display: inline-block;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-left: 8px;
+    margin-top: 18px;
+}
+#Handcraftleftslider{
+    height: 50px;
+    width: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    border:2px solid rgb(207, 207, 207);
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    left: 20px;   
+}
+#Handcraftrightslider{
+    height: 50px;
+    width: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    border:2px solid rgb(207, 207, 207);
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    right: 20px;
+}
+ #nearbystore{                                   /*nearbystore*/
+height: 420px;
+width: 295px;
+background-color: #ffffff;
+box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+position: absolute;
+left: 15px;
+top: 1833px;
+border-radius: 4px;
+}
+#storebike{
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-size: 20px;
+    color: #0f1111;
+}
+#nearbystoreimage1{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("hero-glamour.webp");
+    background-size: cover;
+    background-position-x: -18px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#nearbystoreimage2{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("scooty\ blue.avif");
+    background-size: cover;
+    background-position-x: -10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#Herobikes{
+    color: #0f1111;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-left: 10px;
+    display: inline-block;
+}
+#BajajPulsar{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 28px;
+}
+#nearbystoreimage3{
+    height: 102px;
+    width: 130px;
+    background-image: url("pulsar\ 250.webp");
+    background-size: cover;
+    background-position-x: -25px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 26px;
+}
+#nearbystoreimage4{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image:url("rizta-right.avif");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 10px;
+}
+#AtherRizta{
+    color: #0f1111;
+    font-size: 12px;
+    display: inline-block;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+#Chetakscooter{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 26px;
+    display: inline-block;
+}
+#lasttext10{
+     font-size: 14px;
+    color: #2162A1;
+    padding-left: 10px;
+    padding-top: 38px;
+    display: inline-block;
+}
+ #Emergingbusinesses{                                          /*Emergingbusinesses */
+height: 420px;
+width: 295px;
+background-color: #ffffff;
+box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+position: absolute;
+left: 324px;
+top: 1833px;
+border-radius: 4px;
+}
+#Emergingheading{
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-size: 20px;
+    color: #0f1111;
+}
+#Emergingimage1{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("home\ decor\ stone.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+#Emergingimage2{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("Kitchen\ essentials.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+#Homedecor{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    display: inline-block;
+}
+#Kitchenesentials{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 74px;
+    display: inline-block;
+}
+#Emergingimage3{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("Beautyproducts\ clay.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 26px;
+    display: inline-block;
+}
+#Emergingimage4{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("Furniture.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 26px;
+    display: inline-block;
+}
+#Beautyproducts{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    display: inline-block;
+}
+#furniture{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 53px;
+    display: inline-block;
+}
+#lasttext11{
+     font-size: 14px;
+    color: #2162A1;
+    padding-left: 10px;
+    display: block;
+    padding-top: 35px;
+}
+ #EmpoweringWomenbrands{                          /*EmpoweringWomenbrands */
+    height: 420px;
+    width: 295px;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 328px;
+    top: 1833px;
+    border-radius: 4px;
+}
+#Womenheading{
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-size: 20px;
+    color: #0f1111;
+}
+#Womenbrandsimage1{
+  height: 102px;
+  width: 130px;
+  background-image: url("Kitchen\ stores\ image.jpg");
+  background-size: cover;
+  border-radius: 3px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#Womenbrandsimage2{
+  height: 102px;
+  width: 130px;
+  background-image: url("solid\ furniture.jpg");
+  background-size: cover;
+  border-radius: 3px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#Kitchenstorage{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    display: inline-block;
+}
+#Solidfurniture{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 8px;
+    display: inline-block;
+}
+#Womenbrandsimage3{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("Women\ wear.avif");
+    background-size: cover;
+    background-position-y: -3px;
+    margin-left: 10px;
+    margin-top: 26px;
+    display: inline-block;
+}
+#Womenbrandsimage4{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("skin\ care\ product.webp");
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 26px;
+    display: inline-block;
+}
+#Womenwear{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    display: inline-block;
+}
+#Skincaremore{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 60px;
+    display: inline-block;
+}
+#lasttext12{
+     font-size: 14px;
+    color: #2162A1;
+    padding-left: 10px;
+    display: block;
+    padding-top: 35px;
+}
+#categoriesSmallBusinesses{                                   /*categoriesSmallBusinesses */
+    height: 420px;
+    width: 295px;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 1833px;
+    right: 18px;
+    border-radius: 4px;
+}
+#TopBusinessesheading{
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-size: 20px;
+    color: #0f1111;
+}
+#SmallBusinessesimage1{
+  height: 102px;
+  width: 130px;
+  background-image: url("Ganesh\ Home\ decor.webp");
+  background-size: cover;
+  border-radius: 3px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#SmallBusinessesimage2{
+  height: 102px;
+  width: 130px;
+  background-image: url("Man\ clothing.jpg");
+  background-size: cover;
+  border-radius: 3px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#Homedecoration{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    display: inline-block;
+}
+#Clothing{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 73px;
+    display: inline-block;
+}
+#SmallBusinessesimage3{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("Wall\ furniture.png");
+    background-size: cover;
+    background-position-y: -3px;
+    margin-left: 10px;
+    margin-top: 26px;
+    display: inline-block;
+}
+#SmallBusinessesimage4{
+    height: 102px;
+    width: 130px;
+    border-radius: 3px;
+    background-image: url("Beauty\ products.avif");
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 26px;
+    display: inline-block;
+}
+#Furniture{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    display: inline-block;
+}
+#beautyproducts2{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 92px;
+    display: inline-block;
+}
+#lasttext13{
+     font-size: 14px;
+    color: #2162A1;
+    padding-left: 10px;
+    display: block;
+    padding-top: 35px;
+}
+#BestsellersIndianartisans{                                 /*BestsellersIndianartisans */
+    height: 260px;
+    width: 1222.5px;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 2270px;
+    left: 16px;
+    border-radius: 4px;
+}
+#Indianartisans{
+    font-size: 20px;
+    color: #0f1111;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.seemoree{
+    display: inline-block;
+     color: #2162A1;
+     padding-left: 10px;
+}
+#Bestsellersartisansimage1{
+    height: 200px;
+    width: 206px;
+    background-image: url("Wood\ plank.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 18px;
+    border-radius: 3px;
+}
+#Bestsellersartisansimage2{
+    height: 200px;
+    width: 206px;
+    background-image: url("Tree\ Dcoration.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 18px;
+    border-radius: 3px;
+}
+#Bestsellersartisansimage3{
+    height: 200px;
+    width: 206px;
+    background-image: url("Harati\ image.jpg");
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 8px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#Bestsellersartisansimage4{
+    height: 200px;
+    width: 206px;
+    background-image: url("Sotta\ image.jpg");
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 8px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#Bestsellersartisansimage5{
+    height: 200px;
+    width: 206px;
+    background-image: url("Lamp\ light.jpg");
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 8px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#Bestsellersartisansimage6{
+    height: 200px;
+    width: 120px;
+    background-image: url("vegtable\ cutter.jpg");
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 8px;
+    display: inline-block;
+   border-top-left-radius: 3px;
+   border-bottom-left-radius: 3px;
+}
+#Handcraftleftslider3{
+    height: 50px;
+    width: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    border:2px solid rgb(207, 207, 207);
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    left: 20px;   
+}
+#Handcraftrightslider3{
+    height: 50px;
+    width: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    border:2px solid rgb(207, 207, 207);
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    right: 20px;
+}
+#Bestsellershandloomsartisans{                            /*Bestsellershandloomsartisans */
+    height: 260px;
+    width: 1222.5px;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 2547px;
+    left: 16px;
+    border-radius: 4px;
+}
+#shandloomsartisans{
+    font-size: 20px;
+    color: #0f1111;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#shandloomsartisansimage1{
+    height: 200px;
+    width: 206px;
+    background-image: url("woden\ Dabba.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 18px;
+    border-radius: 3px;
+}
+#shandloomsartisansimage2{
+    height: 200px;
+    width: 206px;
+    background-image: url("color\ full\ tree.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 18px;
+    border-radius: 3px;
+}
+#shandloomsartisansimage3{
+    height: 200px;
+    width: 206px;
+    background-image: url("Tholu\ mommalu\ toy.jpg");
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 8px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#shandloomsartisansimage4{
+    height: 200px;
+    width: 206px;
+    background-image: url("deer\ image.jpg");
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 8px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#shandloomsartisansimage5{
+    height: 200px;
+    width: 206px;
+    background-image: url("Cloth\ butta.jpg");
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 8px;
+    border-radius: 3px;
+    display: inline-block;
+}
+#shandloomsartisansimage6{
+    height: 200px;
+    width: 120px;
+    background-image: url("spray\ image.jpg");
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: 8px;
+    display: inline-block;
+   border-top-left-radius: 3px;
+   border-bottom-left-radius: 3px;
+}
+#Handcraftleftslider4{
+    height: 50px;
+    width: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    border:2px solid rgb(207, 207, 207);
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    left: 20px;   
+}
+#Handcraftrightslider4{
+    height: 50px;
+    width: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    border:2px solid rgb(207, 207, 207);
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    right: 20px;
+}
+#Dealsoutdoortoys{                                 /*Dealsoutdoortoys */
+height: 420px;
+width: 295px;
+background-color: #ffffff;
+box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+position: absolute;
+left: 15px;
+top: 2825px;
+border-radius: 4px;
+}
+#outdoortoysheading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f1111;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+#outdoortoysimage1{
+    height: 102px;
+    width: 130px;
+    background-image: url("sandbox-bucket.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    background-position-x: -8px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+#outdoortoysimage2{
+    height: 102px;
+    width: 130px;
+    background-image: url("Outdoor\ slider\ image.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -18px;
+    background-position-x: -4px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+#StartingScooters{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#StartingSlides{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 62px;
+    padding-top: 3px;
+}
+#outdoortoysimage3{
+    height: 102px;
+    width: 130px;
+    background-image: url("Smoby-Garden-House-Playhouse.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+#outdoortoysimage4{
+    height: 102px;
+    width: 130px;
+    background-image: url("Outdore\ Car\ toy.avif");
+    background-size: cover;
+    background-position-y: -26px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+#Playtents{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#Electricrideons{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 28px;
+    padding-top: 3px;
+}
+#seemoreee{
+    font-size: 14px;
+    color: #1f67ae;
+    padding-top: 26px;
+    padding-left: 10px;
+}
+#UpCollectionsbusinesses{                               /*Collectionsheading */  
+height: 420px;
+width: 295px;
+background-color: #ffffff;
+box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+position: absolute;
+left: 324px;
+top: 2825px;
+border-radius: 4px;
+}
+#Collectionsheading{
+    font-size: 20px;
+    color: #0f1111;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-weight: 700;
+}
+#collectionsheadingimage1{
+    height: 102px;
+    width: 130px;
+    background-image: url("wall\ wallpaper.webp");
+    background-size: cover;
+    background-position-y: -25px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+#collectionsheadingimage2{
+    height: 102px;
+    width: 130px;
+    background-image: url("Emergency\ product.jpg");
+    background-size: cover;
+    background-position-y: -5px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+#Craftedbusinesses{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    padding-top: 3px;
+    display: inline-block;
+}
+#Productsbusinesses{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 37px;
+    padding-top: 3px;
+    display: inline-block;
+}
+#collectionsheadingimage3{
+    height: 102px;
+    width: 130px;
+    background-image: url("amazon\ skin\ care\ products.jpg");
+    background-size: cover;
+    background-position-y: -25px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+#collectionsheadingimage4{
+    height: 102px;
+    width: 130px;
+    background-image: url("candle\ light\ lamp.jpg");
+    background-size: cover;
+    background-position-y: -5px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+#FreshLaunchpad{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    padding-top: 3px;
+    display: inline-block;
+}
+#Festiveyou{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 35px;
+    padding-top: 3px;
+    display: inline-block;
+}
+#Treasuresartisans{                               /*Treasuresartisans */  
+height: 420px;
+width: 295px;
+background-color: #ffffff;
+box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+position: absolute;
+right: 328px;
+top: 2825px;
+border-radius: 4px;
+}
+#Indianartisansheading{
+    font-size: 20px;
+    color: #0f1111;
+    padding-left: 10px;
+    font-weight: 700;
+    padding-top: 12px;
+}
+#Indianartisansimage1{
+    height: 102px;
+    width: 130px;
+    background-image: url("handcraft\ chair.jpg");
+    background-size: cover;
+    background-position-x: -5px;
+    background-position-y: -12px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+#Indianartisansimage2{
+    height: 102px;
+    width: 130px;
+    background-image: url("masala\ essentionals.jpg");
+    background-size: cover;
+    background-position-x: -5px;
+    background-position-y: -12px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+#Handcraftedfurniture{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    padding-top: 3px;
+    display: inline-block;
+}
+#Kitchenessential{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 70px;
+    padding-top: 3px;
+    display: inline-block;
+}
+#Indianartisansimage3{
+    height: 102px;
+    width: 130px;
+    background-image: url("Tollelders\ toys.webp");
+    background-size: cover;
+    background-position-x: -5px;
+    background-position-y: -15px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+#Indianartisansimage4{
+    height: 102px;
+    width: 130px;
+    background-image: url("women\ wearsss.webp");
+    background-size:100%;
+    background-position-x: 5px;
+    background-position-y: -3px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+#Toddlertoys{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 10px;
+    padding-top: 3px;
+    display: inline-block;
+}
+#Womenwear2{
+    font-size: 12px;
+    color: #0f1111;
+    padding-left: 77px;
+    padding-top: 3px;
+    display: inline-block;
+}
+#seemoreee5{
+    font-size: 14px;
+    color: #1f67ae;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+#choicesAmazonLaunchpad{                               /*choicesAmazonLaunchpad */  
+    height: 420px;
+    width: 295px;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 2825px;
+    right: 18px;
+    border-radius: 4px;
+}
+#FreshAmazonheading{
+    font-size: 20px;
+    color: #0f1111;
+    padding-top: 12px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+#FreshAmazonimage1{
+    height: 102px;
+    width: 130px;
+    background-image: url("Honey\ image.webp");
+    background-size: cover;
+    background-position-y: -17px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius: 3px;
+}
+#FreshAmazonimage2 {
+    height: 102px;
+    width: 130px;
+    background-image: url("makeup sticks.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius: 3px;
+}
+#FreshAmazonimage2{
+    background-size:70%;  
+    background-repeat: no-repeat;
+}
+#Grocerygourmet{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#Beautyproducts2{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 3px;
+}
+#FreshAmazonimage3{
+    height: 102px;
+    width: 130px;
+    background-image: url("trimmer\ personal\ care.webp");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius: 3px;
+}
+#FreshAmazonimage4{
+    height: 102px;
+    width: 130px;
+    background-image: url("Kitchen\ tools.webp");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius: 3px;
+}
+#Personaldevices{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#Kitchentools{
+    font-size: 12px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 22px;
+    padding-top: 3px;
+}
+#Businesseslastsection{                       /*Businesseslastsection */ 
+    height: 260px;
+    width: 1222.5px;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 3260px;
+    left: 16px;
+    border-radius: 4px;
+}
+#TopBusinessesheading{
+    font-size: 20px;
+    color: #0f1111;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#lastseemore{
+    font-size: 16px;
+    color: #2162A1;
+    display: inline-block;
+    padding-left: 10px;
+}
+#TopBusinessesimage1{
+    height: 200px;
+    width: 206px;
+    background-image: url("sofa\ image.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 18px;
+    border-radius: 3px;
+}
+#TopBusinessesimage2{
+    height: 200px;
+    width: 206px;
+    background-image: url("wall\ light\ image.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 18px;
+    border-radius: 3px;
+}
+#TopBusinessesimage3{
+    height: 200px;
+    width: 206px;
+    background-image: url("wall\ painting\ and\ wallpapers.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 18px;
+    border-radius: 3px;
+}
+#TopBusinessesimage4{
+    height: 200px;
+    width: 206px;
+    background-image: url("wall\ mirror\ image.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 18px;
+    border-radius: 3px;
+}
+#TopBusinessesimage5{
+    height: 200px;
+    width: 206px;
+    background-image: url("table\ pitta.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 18px;
+    border-radius: 3px;
+}
+#TopBusinessesimage6{
+    height: 200px;
+    width: 120px;
+    background-image: url("coffee\ with\ bread.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 18px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+#Handcraftleftslider5{
+    height: 50px;
+    width: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    border:2px solid rgb(207, 207, 207);
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    left: 20px;   
+}
+#Handcraftrightslider5{
+    height: 50px;
+    width: 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    border:2px solid rgb(207, 207, 207);
+    align-content: center;
+    position: absolute;
+    top: 105px;
+    right: 20px;
+}
+#banglessection{                               /*banglessection */
+    height: 696.67px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+     position: absolute;
+    top: 3536px;
+    border-radius: 4px;
+}
+#Relatedtoitemsviewed{
+    height: 530px;
+    width: 100%;
+    position: absolute;
+    top:15px;
+    border-radius: 4px;
+    border-top: 1.5px solid rgb(213, 213, 213);
+}
+#Relatedtoitemsviewed{
+    display: flex;
+    align-content: center;
+}
+#headingdiv1{
+    height: 27px;
+    width: 790px;
+    display: inline-block;
+}
+#Relateditemsheading{
+    font-size: 17px;
+    color: #0f1111;
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#semor6{
+    font-size: 16px;
+    color:#1f67ae;
+    padding-left: 10px;
+    display: inline-block;
+}
+#headingdiv2{
+    height: 27px;
+    width: 382px;
+    display: flex;
+    justify-content: end;
+    margin-left: 65px;
+    align-items: end;
+}
+#Pagetext{
+    font-size: 14px;
+    color: #0f1111;
+}
+#startover{
+    font-size: 14px;
+    color: #2162A1;
+}
+.imagedivision{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    
+}
+#bangleone{                                                 /*bangleone */
+    width: 185px;
+    height: 400px;
+    margin-left: 15px;
+}
+#bangleoneimage1{
+    background-image: url("bangle1.jpg");
+    background-size: 80%;
+    background-position-y: -10px;
+    background-position-x: 14px;
+    background-repeat: no-repeat;
+    height: 140px;
+}
+#bangleonetextancher{
+    font-size: 13px;
+    color: #2162A1;
+    line-height: 18px;  
+}
+#star1{
+    font-size: 12px;
+    color: #9b9b9b;
+    display: inline-block;
+}
+#redboxouterdiv{
+    display: flex;
+    height: 24px;
+    position: relative;
+    top:5px;
+}
+#offer65{
+    height: 24px;
+    width: 55px;
+    background-color: rgb(173, 2, 2);
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#greatindiafestival1{
+    font-weight:700;
+    font-size: 12px;
+    color: rgb(201, 4, 4);
+    margin-left: 10px;
+}
+#rupees119{
+    font-size: 18px;
+    padding-top: 15px;
+}
+#mrprate{
+    height: 20px;
+    display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+}
+#actualamount{
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+#Getit{
+    color: #495761;
+    font-size: 12px;
+}
+#sunday{
+    font-size: 12px;
+    font-weight: 700;
+}
+#freedelivery{
+    font-size: 11px;
+    color: #495761;
+    padding-top: 7px;
+}
+ #bangletwo{                                     /*bangletwo*/
+    width: 185px;
+    height: 400px;
+}
+#bangleoneimage2{              
+    height: 140px;
+    background-image: url("lucky\ jewellery\ bamgle\ 2.jpg");
+    background-position-x: 35px;
+    background-position-y: 10px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+#bangleonetextancher2{
+    font-size: 13px;
+    color: #2162A1;
+    line-height: 18px;
+}
+#star2{
+    color: #9b9b9b;
+    font-size: 12px;
+    margin-top: 4px;
+}
+#rupees220{
+    font-size: 18px;
+    padding-top: 5px;
+}
+#mrprate2{
+    display: flex;
+    font-size: 12px;
+     margin-top: 4px;
+}
+#actualamount2{
+    text-decoration: line-through;
+    margin-left: 6px;
+}
+#getit2{
+    color: #495761;
+    font-size: 12px;
+}
+#Monday{
+    font-size: 12px;
+    font-weight: 700;
+}
+#freedelivery2{
+    font-size: 11px;
+    color: #495761;
+    padding-top: 7px;
+}
+#banglethree{                                            /*banglethree*/
+    width: 185px;
+    height: 400px;
+}
+#bangleoneimage3{
+    height: 140px;
+    background-image: url("Shine\ of\ star\ bangle3.jpg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#bangleonetextancher3{
+    font-size: 13px;
+    color: #2162A1;
+    line-height: 18px;
+}
+#star3{
+    font-size: 12px;
+    color: #9b9b9b;
+    margin-top: 4px;
+}
+#redboxouterdiv3{
+    display: flex;
+    height: 24px;
+    position: relative;
+    top: 5px;
+}
+#offage{
+    height: 24px;
+    width: 55px;
+    border-radius: 3px;
+    background-color: rgb(173, 2, 2);
+    color: #ffffff;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#greatindiafestival3{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(201, 4, 4);
+    margin-left: 10px;
+}
+#rupees375{
+    font-size: 18px;
+    margin-top: 15px;
+}
+#mrprate3{
+    height: 20px;
+    display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+}
+#mrpractual{
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+#getit3{
+    font-size: 12px;
+    color:#495761
+}
+#tuesday{
+    font-size: 12px;
+    font-weight: 700;
+}
+#freedelivery3{
+    font-size: 11px;
+    color: #495761;
+    padding-top: 7px;
+}
+#banglefour{                               /*banglefour*/
+    width: 185px;
+    height: 400px;
+}
+#bangleoneimage4{
+    height: 140px;
+    background-image: url("Bride\ pinjabi\ green\ bangle4.jpg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#bangleonetextancher4{
+    font-size: 13px;
+    color: #2162A1;
+    line-height: 18px;
+}
+#star4{
+    font-size: 12px;
+    color: #9b9b9b;
+    margin-top: 4px;
+}
+#rupees720{
+    padding-top: 5px;
+    font-size: 18px;
+}
+#mrprate3{
+    height: 20px;
+    display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+}
+#mrpractual{
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+#mrprate6{
+    height: 20px;
+    display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+}
+#minimumprice{
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+#getit4{
+    font-size: 12px;
+    color:#495761
+}
+#wednesday{
+    font-size: 12px;
+    font-weight: 700;
+}
+#freedelivery4{
+    font-size: 11px;
+    color: #495761;
+    padding-top: 7px;
+}
+#banglefive{                         /*banglefive*/
+    width: 185px;
+    height: 400px;
+}
+#bangleoneimage5{
+    height: 140px;
+    background-image: url("LAVAZZA\ bangle7.jpg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#bangleonetextancher5{
+    font-size: 13px;
+    color: #2162A1;
+    line-height: 18px;
+}
+#star5{
+    font-size: 12px;
+    color: #9b9b9b;
+    margin-top: 4px;
+}
+#redboxouterdiv5{
+    height: 24px;
+    display: flex;
+    margin-top: 5px;
+}
+#thirtyperoff{
+    height: 24px;
+    width: 55px;
+    color: #ffffff;
+    background-color:  rgb(173, 2, 2);
+    font-size: 11px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#greatindiafestival5{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(201, 4, 4);
+    margin-left: 10px;
+}
+#rupess600{
+    padding-top: 5px;
+    font-size: 18px;
+}
+#mrprate3{
+    height: 20px;
+    display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+}
+#mrpractual{
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+#mrprate7{
+    height: 20px;
+    display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+}
+#actualrate{
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+#getit5{
+    font-size: 12px;
+    color:#495761
+}
+#thuserday{
+    font-size: 12px;
+    font-weight: 700;
+}
+#freedelivery5{
+    font-size: 11px;
+    color: #495761;
+    padding-top: 7px;
+}
+#banglesix{                                       /*banglesix*/
+    width: 185px;
+    height: 400px;
+    margin-right: 15px;
+}
+#bangleoneimage6{
+    height: 140px;
+    background-image: url("AMCM\ bride\ bangle5.jpg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#bangleonetextancher6{
+    font-size: 13px;
+    color: #2162A1;
+    line-height: 18px;
+}
+#star6{
+    font-size: 12px;
+    color: #9b9b9b;
+    margin-top: 4px;
+}
+#redboxouterdiv6{
+    height: 24px;
+    display: flex;
+    margin-top: 5px;
+}
+#fivtyfiveyperoff{
+    height: 24px;
+    width: 55px;
+    color: #ffffff;
+    background-color:  rgb(173, 2, 2);
+    font-size: 11px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#greatindiafestival6{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(201, 4, 4);
+    margin-left: 10px;
+}
+#rupess430{
+    padding-top: 5px;
+    font-size: 18px;
+}
+#mrprate8{
+    height: 20px;
+    display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+}
+#mrpractual{
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+#mrprate8{
+    height: 20px;
+    display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+}
+#fixedrate{
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+#getit6{
+    font-size: 12px;
+    color:#495761
+}
+#friday{
+    font-size: 12px;
+    font-weight: 700;
+}
+#freedelivery6{
+    font-size: 11px;
+    color: #495761;
+    padding-top: 7px;
+}
+#Seepersonalizedrecommendations{
+    height: 140px;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    border-top: 1.5px solid rgb(213, 213, 213);
+    border-bottom: 1.5px solid rgb(213, 213, 213);
+}
+#personalizedheading{
+    font-size: 22px;
+    color: black;
+}
+#singinbutton{
+    height: 35px;
+    width: 202px;
+    background-color: #ffae00;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+#customercarediv{
+    font-size: 12px;
+}
+#starnew{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #1f67ae;
+    text-decoration: underline;
+    font-size: 12px;
+}
+#foot1{                                                   /*foot1*/
+    background-color: #23435b;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#Backtoheader{
+    height: 15px;
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+}
+.maininformation{                                                  /*foot2*/
+    height: 345px;
+    background-color: #152637;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+#metadiv1{
+    height: 150px;
+    width: 150px;
+    margin-left: 80px;
+}
+#GettoKnowUs{
+    font-size: 16px;
+    color: #ffffff;
+}
+#metainfo1{
+    font-size: 14px;
+    line-height: 23px;
+    padding-top: 6px;
+    color: #d3d3d3;
+}
+#metainfo1:hover{
+    text-decoration: underline;
+}
+#metadiv2{
+    height: 150px;
+    width: 150px;
+}
+#ConnectwithUs{
+    font-size: 16px;
+    color: #ffffff;
+}
+#metainfo2{
+    font-size: 14px;
+    line-height: 23px;
+    padding-top: 6px;
+    color: #d3d3d3;
+}
+#metainfo2:hover{
+    text-decoration: underline;
+}
+#metadiv3{
+    height: 280px;
+    width: 160px;
+}
+#MakeMoneywithUs{
+    font-size: 16px;
+    color: #ffffff;
+}
+#metainfo3{
+    font-size: 14px;
+    line-height: 25px;
+    padding-top: 6px;
+    color: #d3d3d3;
+}
+#metainfo3:hover{
+    text-decoration: underline;
+}
+#metadiv4{
+    height: 220px;
+    width: 150px;
+    margin-right: 80px;
+}
+#LetUsHelpYou{
+    font-size: 16px;
+    color: #ffffff;
+}
+#metainfo4{
+    font-size: 14px;
+    line-height: 23px;
+    padding-top: 6px;
+    color: #d3d3d3;
+}
+#metainfo4:hover{
+    text-decoration: underline;
+}
+#footerwithlogoimage{                                 /*foot3*/
+    height: 100px;
+    background-color: #152637;
+    border-top: 1px solid rgb(122, 122, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#amazonlogodiv{
+    height: 68px;
+    width: 90px;
+    background-image: url("amazon_PNG.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+#languageselester{
+    height: 30px;
+    width: 150px;
+    color: #b2b2b2;
+    border: 1px solid rgb(153, 153, 153);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: transparent;
+    border-left-width: 0px;
+
+}
+#languageicon{
+    height: 32px;
+    width: 34px;
+    border: 1px solid rgb(153, 153, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right-width: 0px;
+}
+#countryflag{
+    height: 32px;
+    width: 80px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+}
+#indianflag{
+  height: 14px;
+  width: 22px;
+}
+#selectindia{
+    color: #b2b2b2;
+    font-size: 12px;
+    padding-left: 10px;
+}
+#foot4{
+    height: 200px;
+    background-color: #011421;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#footmetainfodiv{
+    height: 192px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 247px;
+}
+#footerlastinfobox1{
+    height: 50px;
+    width: 150px;
+}
+#AbeBooks{
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#collectibles{
+    font-size: 12px;
+    color: #b2b2b2;
+    padding-top: 4px;
+}
+#footerlastinfobox1:hover{
+ text-decoration: underline 1px solid #b2b2b2;
+}
+#footerlastinfobox2{
+    height: 50px;
+    width: 150px;
+}
+#AmazonWebServices{
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#ComputingServices{
+    font-size: 12px;
+    color: #b2b2b2;
+    padding-top: 4px;
+}
+#footerlastinfobox2:hover{
+ text-decoration: underline 1px solid #b2b2b2;
+}
+#footerlastinfobox3{
+    height: 50px;
+    width: 150px;
+}
+#Audible{
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#Download{
+    font-size: 12px;
+    color: #b2b2b2;
+    padding-top: 4px;
+}
+#footerlastinfobox3:hover{
+ text-decoration: underline 1px solid #b2b2b2;
+}
+#footerlastinfobox4{
+    height: 50px;
+    width: 150px;
+}
+#IMDb{
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#Celebrities{
+    font-size: 12px;
+    color: #b2b2b2;
+    padding-top: 4px;
+}
+#footerlastinfobox4:hover{
+ text-decoration: underline 1px solid #b2b2b2;
+}
+#footerlastinfobox5{
+    height: 80px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+#Shopbop{
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#Designer{
+    font-size: 12px;
+    color: #b2b2b2;
+    padding-top: 4px;
+}
+#footerlastinfobox5:hover{
+ text-decoration: underline 1px solid #b2b2b2;
+}
+#footerlastinfobox6{
+    height: 80px;
+    width: 150px;
+}
+#AmazonBusiness{
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#EverythingFor{
+    font-size: 12px;
+    color: #b2b2b2;
+    padding-top: 4px;
+}
+#footerlastinfobox6:hover{
+ text-decoration: underline 1px solid #b2b2b2;
+}
+#footerlastinfobox7{
+    height: 80px;
+    width: 150px;
+}
+#PrimeNow{
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#onEverydayItems{
+    font-size: 12px;
+    color: #b2b2b2;
+    padding-top: 4px;
+}
+#footerlastinfobox7:hover{
+ text-decoration: underline 1px solid #b2b2b2;
+}
+#footerlastinfobox8{
+    height: 80px;
+    width: 150px;
+}
+#AmazonPrimeMusic{
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#millionsongs{
+    font-size: 12px;
+    color: #b2b2b2;
+    padding-top: 4px;
+
+}
+#footerlastinfobox8:hover{
+ text-decoration: underline 1px solid #b2b2b2;
+}
+#copyright{
+    height: 76px;
+    background-color: #011421;
+}
+#line1{
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #b2b2b2;
+}
+#text2{
+   padding-left: 10px;
+}
+#copyrighttext2{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #b2b2b2;
+}
